@@ -1,7 +1,7 @@
 # Knights
 
 (CS50:AI Project)
-A program to solve logic puzzles.
+AI to solve logic puzzles.
 
 ### Background
 
