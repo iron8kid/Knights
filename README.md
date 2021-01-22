@@ -24,7 +24,7 @@ Recall that logic.py also contains a function model_check. model_check takes a k
 
 Now, take a look at puzzle.py. At the top, we’ve defined six propositional symbols. AKnight, for example, represents the sentence that “A is a knight,” while AKnave represents the sentence that “A is a knave.” We’ve similarly defined propositional symbols for characters B and C as well.
 
-What follows are four different knowledge bases, knowledge0, knowledge1, knowledge2, and knowledge3, which will contain the knowledge needed to deduce the solutions to the upcoming Puzzles 0, 1, 2, and 3, respectively.
+What follows are four different knowledge bases, *knowledge0*, *knowledge1*, *knowledge2*, and *knowledge3*, which will contain the knowledge needed to deduce the solutions to the upcoming *Puzzles* 0, 1, 2,* and *3*, respectively.
 
 The main function of this puzzle.py loops over all puzzles, and uses model checking to compute, given the knowledge for that puzzle, whether each character is a knight or a knave, printing out any conclusions that the model checking algorithm is able to make.
 
